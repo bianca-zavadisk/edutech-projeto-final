@@ -1,0 +1,46 @@
+.info {
+    margin: 4rem 2rem;
+    text-align: center;
+}
+
+.info-painel__titulo {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+}
+
+.info-painel__subtitulo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.info-descricao {
+    line-height: 2.5rem;
+}
+
+@media screen and (min-width: 748px) {
+    .info {
+        margin: 2rem 5rem;
+    }
+
+    .info-painel__titulo {
+        font-size: 3rem;
+    }
+
+    .info-painel__subtitulo {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .info {
+        margin: 4rem 15rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .info {
+        margin: 4rem 20rem;
+    }
+}

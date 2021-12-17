@@ -1,0 +1,7 @@
+.cabecalho {
+    background-image: url(../img/destaque.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 1rem 0;
+}

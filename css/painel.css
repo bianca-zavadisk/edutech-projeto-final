@@ -1,0 +1,63 @@
+.painel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+
+    padding: 2rem 0;
+
+    text-transform: uppercase;
+}
+
+.painel-principal {
+    text-shadow: var(--preto) 0.1em 0.1em 0.2em;
+    font-weight: 700;
+}
+
+.titulo {
+    color: var(--branco);
+    font-size: 3.5rem;
+
+    margin-top: 1rem;
+}
+
+.subtitulo {
+    color: var(--laranja);
+    font-size: 2.95rem;
+
+    margin-top: .65rem;
+}
+
+.painel-inscricao {
+    display: flex;
+}
+
+.botao__link {
+    padding: 1rem 2rem;
+    border-radius: 5px;
+
+    margin: 3rem 0 0 0;
+
+    background-color: var(--verde-agua);
+
+    color: var(--branco);
+
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 748px) {
+    .titulo {
+        font-size: 5.5rem;
+    }
+
+    .subtitulo {
+        font-size: 4.95rem;
+    }
+
+    .botao__link {
+        font-size: 1.5rem;
+    }
+}

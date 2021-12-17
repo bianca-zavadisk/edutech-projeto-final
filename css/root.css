@@ -1,0 +1,15 @@
+:root {
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --verde-agua: #48A3A6;
+    --verde: #82e5e9;
+    --laranja: #EF7247;
+
+    --fonte-corpo: 'Lato', sans-serif;
+    --tamanho-corpo: 17px;
+}
+
+body {
+    font-family: var(--fonte-corpo);
+    font-size: var(--tamanho-corpo);
+}

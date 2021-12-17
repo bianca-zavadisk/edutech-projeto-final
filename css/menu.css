@@ -1,0 +1,30 @@
+/* cor do hover: #48A3A6 */
+
+.cabecalho .lista {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: calc(1.5rem - .2rem);
+}
+
+.cabecalho .lista__item {
+    text-decoration: none;
+}
+
+.cabecalho .lista__link {
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 5px;
+
+    text-transform: uppercase;
+    color: #FFF;
+    text-decoration: none;
+
+    padding: 1rem;
+    margin: 1.25rem .2rem;
+
+    transition: background-color .5s;
+}
+
+.cabecalho .lista__link:hover {
+    background-color: #48A3A6;
+}
